@@ -1,0 +1,98 @@
+.container{
+    width:80%;
+    margin: auto;
+    overflow: hidden;
+}
+.content{
+    width:65%;
+    margin: auto;
+    overflow: hidden;
+}
+.logos .logo{
+    float: left;
+    text-align: center;
+    width:20%;
+   
+}
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width:50%;
+   
+}
+input {
+	background-color: white;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 90%;
+    border: 1px solid #777777;
+}
+#boxes .box img{
+    width: 80%;
+    height: 80%;
+}
+#logo{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+#text1{
+    font-family: Montserrat ;
+    color:black;
+    font-weight: bolder;
+    font-size: 16px;
+    padding-top: 15px; 
+}
+#text2{
+    font-family: Montserrat ;
+    color:#3E4B80;
+    font-weight: bolder;
+    font-size: 14px;
+
+
+}
+#text3{
+    font-family: Montserrat ;
+    font-size: 13px;
+
+
+}
+a{
+    font-size: 10px;
+    color: #2CE4B4;
+    margin-left: 0px;
+}
+.logbtn{
+    background-color: #1A46DE;
+    color: white;
+}
+p{
+    text-align: left;
+    color: #777777;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #777777;
+  }
+  
+  .separator:not(:empty)::before {
+    margin-right: .25em;
+  }
+  
+  .separator:not(:empty)::after {
+    margin-left: .25em;
+  }
